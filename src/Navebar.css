@@ -1,0 +1,14 @@
+.navbar{
+    padding: 0px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.navbar-container{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-brand{
+    padding: 2px 0px;
+}
