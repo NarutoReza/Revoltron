@@ -80,10 +80,10 @@ function Home() {
                                 <div className='news-box'>
                                     <img src={item.urlToImage} alt={item.title}/>
 
-                                    <a>{item.title}</a>
+                                    <div className='news-title' style={{'--url': `url(${item.urlToImage})`}}>
+                                        <a>{item.title}</a>
+                                    </div>
                                 </div>
-
-                                <h6>{item.author}</h6>
                             </Col>
                         )
                     })
